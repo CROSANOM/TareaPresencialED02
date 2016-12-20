@@ -2,7 +2,11 @@
 public class HolaMundo {
 
 	public static void main(String[] args) {
-		System.out.println("hola mundo");
+		int hora, minutos;
+		hora=18;
+		minutos=40;
+		String HoraExacta=("La hora es "+hora+":"+minutos);
+		System.out.println("hola mundo"+HoraExacta);
 		// TODO Auto-generated method stub
 
 	}
